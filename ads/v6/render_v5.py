@@ -15,6 +15,13 @@ MOTIVE = [
     ('23_DeinAbend', 'Interieur/5F8A3814.JPG', 'Dein Tisch.\nDein Abend.', 'Abends · 44,40 € pro Person', dict(cx=0.5, cy=0.5), dict(cx=0.5, cy=0.5)),
     ('24_Ankommen', 'Interieur/5F8A3770.JPG', 'Ankommen.\nUnd bleiben.', 'Münchner Bundesstraße 1 · Salzburg', dict(cx=0.5, cy=0.4), dict(cx=0.5, cy=0.4)),
 ]
+MOTIVE += [
+    ('25_Hummer', 'Speisen/5F8A3691.JPG', 'Gro\u00df gedacht.\nFein gemacht.', 'All you can enjoy \u00b7 ab 24,90 \u20ac pro Person', dict(cx=0.5, cy=0.75, zoom=1.12), dict(cx=0.5, cy=0.6)),
+    ('26_Hamachi', 'Speisen/5F8A3672.JPG', 'Frisch. Klar.\nAuf den Punkt.', 'M\u00fcnchner Bundesstra\u00dfe 1 \u00b7 Salzburg', dict(cx=0.5, cy=0.8, zoom=1.12), dict(cx=0.5, cy=0.6)),
+    ('27_Rolls', 'Speisen/5F8A3686.JPG', 'Jede Rolle.\nEin Statement.', 'All you can enjoy \u00b7 ab 24,90 \u20ac pro Person', dict(cx=0.5, cy=0.85, zoom=1.15), dict(cx=0.5, cy=0.62)),
+    ('28_Mittag', 'Speisen/5F8A3617.JPG', 'Mittags.\nIm SHIRO.', 'Montag bis Freitag \u00b7 24,90 \u20ac pro Person', dict(cx=0.5, cy=0.7, zoom=1.1), dict(cx=0.5, cy=0.55)),
+    ('29_Staunen', 'Interieur/5F8A3797.JPG', 'Sehen. Staunen.\nGenie\u00dfen.', 'Abends \u00b7 44,40 \u20ac pro Person', dict(cx=0.5, cy=0.45), dict(cx=0.5, cy=0.45)),
+]
 from PIL import Image, ImageDraw
 def story(src, out, crop, head, sub, cta='JETZT RESERVIEREN'):
     w, h = 1440, 2560; s = 1.0
